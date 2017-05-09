@@ -1,0 +1,4 @@
+*OUVR*VIZIO*==create_room
+>say "Creation d'une Vizio?";
+>>*OUI*|*OK*== say "Vizio lancé $(open_app)"
+>>*NON*== say "Vizio annulé..."
